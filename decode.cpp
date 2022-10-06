@@ -7,7 +7,7 @@ class frac {
 public:
 	int num, den;
 
-	frac(int n, int d): num(n), den(d) {}
+	frac(int n, int d): num(n), den(d) {}			#Member Initializer List 
 
 	void reduce_frac(frac & f) {
 		int gcd = __gcd(f.num, f.den);
